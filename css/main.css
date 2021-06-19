@@ -41,7 +41,7 @@ header nav .nav-right-section {
 }
 
 nav .nav-right-section a {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     margin-right: 10px;
     color: black;
 
@@ -59,4 +59,87 @@ nav .nav-right-section .menu-icon {
 nav .nav-right-section img {
     border-radius: 50%;
     margin-left: 10px;
+}
+
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+
+main .main-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container {
+    border: 1px solid #dfe1e5;
+    width: 525px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input-container input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+main .main-input .search-icon {
+    background-image: url('https://www.clipartmax.com/png/middle/279-2795130_search-magnifying-glass-search-icon-transparent.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+
+}
+
+main .main-input .micro-icon {
+    background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+main .main-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+main .main-buttons div button {
+    margin: 11px 4px;
+    padding: 0 16px;
+    text-align: center;
+    border-radius: 4px;
+    height: 36px;
+    cursor: pointer;
+    border: 1px solid white;
+
+}
+
+main .main-buttons div button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
 }
